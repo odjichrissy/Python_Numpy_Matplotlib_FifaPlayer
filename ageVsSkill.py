@@ -45,7 +45,7 @@ y6 = []
 Based on Age and Skill
 ============================================================
 '''
-color = []
+# color = []
 
 # for i in range(len(x)):           # Beware of the total number of data
 #     if x[i]>=25 and y[i]>80:
@@ -121,7 +121,7 @@ plt.scatter(x6,y6, color='y', marker="o")
 
 
 
-plt.legend(['old good','old normal','Mature good','Mature bad','young good','young raw'],loc='upper right')
+plt.legend(['Old but good','Old and normal','Mature but good','Mature and bad','Young and good','Young and raw'],loc='upper right')
 
 plt.annotate('This is Messi', xy=(31,94), xytext=(26,95), arrowprops=dict(facecolor='black', shrink=1))
 
